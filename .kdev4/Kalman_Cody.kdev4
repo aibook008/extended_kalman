@@ -1,0 +1,34 @@
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/cody/codygittest/Kalman_Cody/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=debug
+Configured Launchers=gdb
+Name=kalman_cody
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Configured from ProjectItem=Kalman_Cody,kalman_cody
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/cody/codygittest/Kalman_Cody/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=Kalman_Cody,kalman_cody
+Use External Terminal=true
+Working Directory=file:///home/cody/codygittest/Kalman_Cody/build/
+isExecutable=false
